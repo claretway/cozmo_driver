@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3.5
 # -*- encoding: utf-8 -*-
 """
 This file implements a ROS keyboard teleoperation node for the ANKI Cozmo robot.

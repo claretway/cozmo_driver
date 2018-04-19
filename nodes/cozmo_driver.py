@@ -466,6 +466,7 @@ class CozmoRos(object):
         :param  update_rate:    The update rate.
 
         """
+
         r = rospy.Rate(update_rate)
         while not rospy.is_shutdown():
             self._publish_tf(update_rate)

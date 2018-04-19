@@ -34,9 +34,10 @@
     <remap from="lift_height" to="cozmo/lift_height"  />
   </node>
 
-  <!--test-->
+  <!--test
   <node pkg="cozmo_driver" type="test.py" name="test_node" output="screen" respawn="true">
   </node>
+  -->
 
   <!-- Joystick Teleoperation (optional) -->
   <group if="$(arg use_joy)"
